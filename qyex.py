@@ -156,6 +156,12 @@ REMINDER_TASKS = [
         "condition": is_workday,
     },
     {
+        "time": "11:10",
+        "label": "🥡 【点外卖提醒】",
+        "content": "该点外卖了，不然中午只能饿肚子了！🍱",
+        "condition": is_workday,
+    },
+    {
         "time": "11:45",
         "label": "🍽️ 【午饭时间】",
         "content": _build_lunch_content,
